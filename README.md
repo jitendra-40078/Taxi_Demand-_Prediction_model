@@ -10,8 +10,9 @@ Interpretability: As long as taxi driver gets good prediction result, he/she is 
 Relative Errors: Mean Absolute Percentage Error will be the relative error we will consider. Let say the predicted pickups for a particular location are 100, but actual pickups are 102, the percentage error will be 2% and Absolute error is 2. The taxi driver will be more interested in the percentage error than the absolute error. Let say in some region the predicted pickups are 250, and if taxi driver knows that the relative error is 10% then he/she will consider the predicted result to be in the range of 225 to 275, which is considerable. Our goal is to reduce the percentage error is low as possible.
 ## Libraries:
 1. dask: It is used to handle very large files.
+
   i) pip3 install dask
-2. folium: It is used to plot maps using latitude and longitude.
+2. folium: It is used to plot maps using latitude and longitude.\n
   i) pip3 install folium
   ii) conda install -c conda-forge folium
 3. xgboost: It is used to make xgboost regression model.
