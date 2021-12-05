@@ -11,23 +11,23 @@ Relative Errors: Mean Absolute Percentage Error will be the relative error we wi
 # Libraries:
 1. dask: It is used to handle very large files.
 
-  i) pip3 install dask
+   i) pip3 install dask
   
 2. folium: It is used to plot maps using latitude and longitude.
 
-  i) pip3 install folium
+   i) pip3 install folium
   
-  ii) conda install -c conda-forge folium
+   ii) conda install -c conda-forge folium
   
 3. xgboost: It is used to make xgboost regression model.
 
-  i) pip3 install xgboost
+   i) pip3 install xgboost
   
-  ii) conda install -c conda-forge xgboost
+   ii) conda install -c conda-forge xgboost
   
 4. gpxpy: It is used while we calculate the straight line distance between two (latitude, longitude) pairs in miles.
 
-  i) pip install gpxpy
+   i) pip install gpxpy
   
 # Acknowledgments
 Applied AI Course
